@@ -1,7 +1,7 @@
 # Build-Your-DeFI-Staking-dApp
 🤑Build Your Own Defi Staking dApp - The Official Github Repo with all the supporting code to follow the Youtube Tutorial so you can build your own DeFI Staking Rewards dApp.
 
-<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/defi-vid-1.png" width="600" height="450">
+<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/defi-vid-1.png" width="500" height="450">
 
 ** THE FILES ATTACHED TO THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY **
 
