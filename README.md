@@ -25,4 +25,16 @@ N2D-DeFI-MasterChef-SmartContract-Storage-Demo.sol
 N2D-ERC20-N2DRewards-Token-SmartContract.sol
 ```
 
+<h3>Part 3 Repo</h3>
+
+Click for video:
+
+<a href="https://youtu.be/JJFuuoR5h78" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+
+Part3 Folder Contents:
+
+```shell
+N2D-DeFI-MasterChef-SmartContract-Add-Pools-Demo.sol
+```
+
 Please watch full tutorial video to understand both contracts and practice how to deploy and validate. 
