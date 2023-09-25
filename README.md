@@ -49,4 +49,17 @@ Part4 Folder Contents:
 N2D-DeFI-MasterChef-SmartContract-Update-Pools-Demo.sol
 ```
 
+<h3>Part 5 Repo</h3>
+
+Click for video:
+
+<a href="https://youtu.be/EWh8Q3RU5JY" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+
+Part5 Folder Contents:
+
+```shell
+N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
+N2D-ERC20-N2DRewards-Token-Final.sol
+```
+
 Please watch full tutorial videos to understand the contracts and practice how to deploy and validate. 
