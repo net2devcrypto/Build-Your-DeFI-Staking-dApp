@@ -203,6 +203,7 @@ contract N2DMasterChefV1 is Ownable, ReentrancyGuard {
     function autoCompound() public {
         PoolInfo storage pool = poolInfo[0];
         UserInfo storage user = userInfo[0][msg.sender];
+        updatePool(0);
         if (user.amount > 0) {
             uint256 pending = user.amount.mul(pool.rewardTokenPerShare).div(1e12).sub(user.pendingReward);
             if(pending > 0) {
