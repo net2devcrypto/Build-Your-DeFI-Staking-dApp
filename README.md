@@ -81,7 +81,7 @@ fakeusdt.sol
 
 DOWNLOAD "Final" Repo folder, then:
 
-#1- Deploy the contracts in the following order:
+# 1- Deploy the contracts in the following order:
 
 - N2D-ERC20-N2DRewards-Token-Final.sol
 
@@ -104,17 +104,17 @@ DOWNLOAD "Final" Repo folder, then:
 
   * Copy the fake USDT smart contract address once deployed.
 
-#2- Grant the MANAGER Role to the Masterchef smart contract address on both N2DR Token and N2DRPay smart contracts.
+# 2- Grant the MANAGER Role to the Masterchef smart contract address on both N2DR Token and N2DRPay smart contracts.
 
   * Refer to tutorial video for additional info.
 
-#3- Proceed to add the fake USDT Pool on the Masterchef Smart Contract.</h5>
+# 3- Proceed to add the fake USDT Pool on the Masterchef Smart Contract.</h5>
 
   * Provide the fake USDT smart contract address recently deployed as lpToken address.
   * Add Allocation Point and _withUpdate to true
   * Refer to tutorial video for additional info.
 
-#4- Open your shell/terminal and navigate to the frontend folder then install dependencies.
+# 4- Open your shell/terminal and navigate to the frontend folder then install dependencies.
 
 ```shell
 cd final
@@ -122,7 +122,7 @@ cd frontend
 npm i
 ```
 
-#5- Enter your Masterchef contract address to the config.js file.</h5>
+# 5- Enter your Masterchef contract address to the config.js file.</h5>
 
 ```shell
 const masterchefAddr = 'ENTER_MASTERCHEF_CONTRACT_ADDRESS';
@@ -130,7 +130,7 @@ const masterchefAddr = 'ENTER_MASTERCHEF_CONTRACT_ADDRESS';
 
 CTRL + S to save !
 
-#6- Mint some test N2DR and USDT Tokens from your smart contracts and run your application!
+# 6- Mint some test N2DR and USDT Tokens from your smart contracts and run your application!
 
 ```shell
 cd final
