@@ -71,6 +71,7 @@ Click for video:
 Final Folder Contents:
 
 <h4>contracts</h4>
+
 ```shell
 N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
 N2D-ERC20-N2DRewards-Token-Final.sol
