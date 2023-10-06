@@ -70,12 +70,14 @@ Click for video:
 
 Final Folder Contents:
 
+<h4>contracts</h4>
 ```shell
 N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
 N2D-ERC20-N2DRewards-Token-Final.sol
 N2D-DeFI-Staking-N2DRPay-SmartContract.sol
 fakeusdt.sol
 ```
+<h4>frontend</h4>
 
 <h4>Steps to use practice tutorial files</h4>
 
