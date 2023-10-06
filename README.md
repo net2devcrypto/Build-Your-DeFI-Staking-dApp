@@ -62,4 +62,84 @@ N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
 N2D-ERC20-N2DRewards-Token-Final.sol
 ```
 
-Please watch full tutorial videos to understand the contracts and practice how to deploy and validate. 
+<h3>Final Vid - Front-end Repo</h3>
+
+Click for video:
+
+<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+
+Final Folder Contents:
+
+```shell
+N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
+N2D-ERC20-N2DRewards-Token-Final.sol
+N2D-DeFI-Staking-N2DRPay-SmartContract.sol
+fakeusdt.sol
+```
+
+<h4>Steps to use practice tutorial files</h4>
+
+DOWNLOAD "Final" Repo folder, then:
+
+<h5>1- Deploy the contracts in the following order:</h5>
+
+- N2D-ERC20-N2DRewards-Token-Final.sol
+
+  * Copy the token smart contract address once deployed.
+
+- N2D-DeFI-Staking-N2DRPay-SmartContract.sol
+
+  * Provide the N2DR token smart contract address when deploying.
+  * Copy the N2DRPay smart contract address once deployed.
+
+- N2D-DeFI-Staking-MasterChef-SmartContract-Final.sol
+
+  * Provide the N2DR token smart contract address when deploying.
+  * Provide the N2DRPay smart contract address when deploying.
+  * Provide all the additional values, refer to tutorial videos.
+
+  * Copy the Masterchef smart contract address once deployed.
+
+- fakeusdt.sol
+
+  * Copy the fake USDT smart contract address once deployed.
+
+<h5>2- Grant the MANAGER Role to the Masterchef smart contract address on both N2DR Token and N2DRPay smart contracts.</h5>
+
+  * Refer to tutorial video for additional info.
+
+<h5>3- Proceed to add the fake USDT Pool on the Masterchef Smart Contract.</h5>
+
+  * Provide the fake USDT smart contract address recently deployed as lpToken address.
+  * Add Allocation Point and _withUpdate to true
+  * Refer to tutorial video for additional info.
+
+<h5>4- Open your shell/terminal and navigate to the frontend folder then install dependencies.</h5>
+
+```shell
+cd final
+cd frontend
+npm i
+```
+
+<h5>4- Enter your Masterchef contract address to the config.js file.</h5>
+
+```shell
+const masterchefAddr = 'ENTER_MASTERCHEF_CONTRACT_ADDRESS';
+```
+
+CTRL + S to save !
+
+<h5>5- Mint some test N2DR and USDT Tokens from your smart contracts and run your application!</h5>
+
+```shell
+cd final
+cd frontend
+npm run dev
+```
+
+Navigate to your web frontend and test!
+
+Please watch full tutorial videos to understand the entire concept. It is important to learn how the DeFI Masterchef smart contract works!
+
+Make your own mods and enjoy this tutorial, Knowledge is power!!
